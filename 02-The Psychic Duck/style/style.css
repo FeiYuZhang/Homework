@@ -1,0 +1,81 @@
+body {
+	color: #000;
+	font-family: 'Gochi Hand', cursive;
+	background: #9ad6ff;
+}
+
+h1 {
+	margin-bottom: 30px;
+	font-size: 34pt;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+input {
+	margin: -80px 0 0 0;
+	padding: 5px 10px 0 10px;
+	width: 530px;
+	height: 50px;
+	color: #266590;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 20pt;
+	background: #76bff1;
+	border: 0;
+	border-radius: 10px;
+	outline: none;
+}
+
+::-webkit-input-placeholder { color: #438ec1; text-align: center; }
+:-moz-placeholder { color: #438ec1; text-align: center; }
+::-moz-placeholder { color: #438ec1; text-align: center; }
+:-ms-input-placeholder { color: #438ec1; text-align: center; }
+
+#duckWrap {
+	width: 550px;
+	height: auto;
+	margin: 50px auto;
+	padding: 0;
+}
+
+#face {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	width: 445px;
+	height: 471px;
+	background: url('../images/face.png') no-repeat;
+	z-index: 1;
+}
+
+#eyes {
+	display: block;
+	position: relative;
+	margin: -230px auto 0 auto;
+	width: 273px;
+	height: 91px;
+	background: url('../images/eyes.png') no-repeat;
+	z-index: 2;
+}
+
+#beak {
+	display: block;
+	position: relative;
+	margin: -30px auto 0 auto;
+	width: 260px;
+	height: 144px;
+	background: url('../images/beak.png') no-repeat;
+	z-index: 3;
+}
+
+#duckSpeech {
+	margin: 20px auto -20px auto;
+	padding: 68px 0 0 0;
+	width: 501px;
+	height: 123px;
+	font-size: 20pt;
+	text-transform: uppercase;
+	text-align: center;
+	background: url('../images/bubble.png') no-repeat;
+}
+
+#currentQuestion { text-align: center; }

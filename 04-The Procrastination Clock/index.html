@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>The Procrastination Clock</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="flipclock.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/temboo.js"></script>
+<script src="php/temboo.php"></script>
+<script src="js/flipclock.js"></script>	
+<script src="js/main.js"></script>
+</head>
+<body>
+
+<!-- STOP PROCRASTINATING -->
+<div id="sp">
+	<p class="message">Stop<br />Procrastinating<br /></p>
+</div>
+
+<!-- PROCRASTINATE AWAY -->
+<div id="pa">
+	<p id="paText">Procrastinate<br />Away<br /></p>
+</div> 
+
+<!-- TIMER -->
+<div id="timer">
+<div class="clock" style="margin:2em;"></div>
+<p id="sw">Until You Have to Start Working</p>
+</div>
+
+<!-- SETUP TIMER -->
+<div id="setTimeForm">
+	<h1>Time Until Deadline</h1>
+	<form class="setTime">
+		<input type="text" class="setDays" value="">
+		<input type="text" class="setHours" value="">
+		<input type="text" class="setMinutes" value="">
+		<label>Day</label>
+		<label>Hour</label>
+		<label>Minute</label>
+	<h1>Time Needed to Complete Task</h1>
+		<input type="text" class="daysNeeded" value="">
+		<input type="text" class="hoursNeeded" value="">
+		<input type="text" class="minutesNeeded" value="">
+		<label>Day</label>
+		<label>Hour</label>
+		<label>Minute</label>
+
+		<input type="submit" id="submit" value="Start" style="width: 60px;">
+	</form>
+</div>
+
+</body>
+</html>

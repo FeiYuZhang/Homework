@@ -1,0 +1,162 @@
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('fonts/Avenir.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src:  url(data:application/x-font-woff;charset=utf-8;base64,) format('woff'), 
+  		url('fonts/Avenir.ttf') format('truetype'), 
+  		url('fonts/Avenir.svg#Avenir') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-family: 'Avenir', Helvetica, sans-serif;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	background: #fe5127;
+	overflow: hidden;
+}
+
+#sp {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.spWhite {
+	background: #fff;
+}
+
+#sp p {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	width: 1100px;
+	margin: 0 0 0 -540px; 
+	font-size: 80pt;
+	text-align: center;
+	text-shadow: 0px 3px #383838;
+	line-height: 80pt;
+}
+
+#pa {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: #16b325;
+	overflow: hidden;
+	z-index: 80;
+	/*visibility: hidden;*/
+}
+
+#paText {
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	margin: 0 0 -80pt -460px; 
+	font-size: 80pt;
+	text-align: center;
+	text-shadow: 0px 3px #383838;
+	line-height: 80pt;
+}
+
+.youtube {
+	display: inline-block;
+	width: 25%;
+	height: 25%;
+	margin: 0;
+	padding: 0;
+	opacity: 0.15;
+	background-size: 100% auto;
+	background-position: 0 0;
+	z-index: 9999;
+}
+
+.youtube:hover {
+	opacity: 1;
+}
+
+#timer {
+	position: absolute;
+	left: 50%;
+	top: 20px;
+	width: 665px;
+	margin-left: -330px;
+	font-size: 10pt;
+	text-align: center;
+	z-index: 9999;
+	/*visibility: hidden;*/
+}
+
+#clock {
+	margin: 40px 0 -30px 0;
+	font-size: 70pt;
+}
+
+h1 {
+	font-size: 16pt;
+	text-align: center;
+}
+
+#setTimeForm {
+	display: block;
+	position: relative;
+	width: 500px;
+	margin: 230px auto 0 auto;
+	padding: 0 auto;
+	z-index: 999;
+	/*visibility: hidden;*/
+}
+
+form {
+	position: relative;
+	padding: 0 auto;
+	text-align: center;
+}
+
+input {
+	position: relative;
+	margin: 0 auto;
+	width: 30%;
+	height: 25px;
+	border: 0;
+	border-radius: 10px;
+	opacity: 0.8;
+	outline: none;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+input:hover {
+	opacity: 1;
+}
+
+label {
+	display: inline-block;
+	width: 30%;
+	padding: 0;
+	margin: 10px auto 30px auto;
+	font-size: 10pt;
+	opacity: 0.5;
+}
+
+#submit {
+	display: block;
+	margin: 20px auto;
+	text-transform: uppercase;
+	background: #fff;
+}
